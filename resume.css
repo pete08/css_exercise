@@ -1,0 +1,82 @@
+/* COMMENT */
+body {
+  margin: 0;
+  padding: 0
+}
+
+/* CENTER */
+main {
+  margin: auto auto;
+  max-width: 50em
+}
+
+/* FONT */
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+
+/* SPACING */
+main {
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+h2 {
+  margin-top: 1em;
+  padding-top: 1em;
+}
+
+/* COLOR */
+body {
+  color: #566b78
+}
+
+h1, h2 {
+  color: #333333
+}
+
+a {
+  color: #e81c4f
+}
+
+
+/* HEADER */
+header {
+  background-color: #263d36;
+  background-image: url("https://images.unsplash.com/photo-1562887189-4b6edf71d847?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  line-height: 1.2;
+  padding: 10vw 2em;
+  text-align: center;
+}
+
+
+
+/* HEADER STYLING */
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: 300;
+}
+
+header a {
+  border: 1px solid #e81c4f;
+  border-radius: 3em;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition-property: color, background;
+  transition-duration: 200ms;
+}
+
+header a:hover {
+  background: #e81c4f;
+  color: white;
+}
